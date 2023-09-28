@@ -1,0 +1,23 @@
+ .our_best{
+    font-family: Merienda;
+    background-image: url('../../../public/img/MaskGroup.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 101px;
+    h3{
+        text-align: center;
+        padding-top: 80px;
+    }
+     
+}
+.our_best_inner{
+    display: flex;
+    justify-content: center;
+    gap: 71px;
+}
+
+ 

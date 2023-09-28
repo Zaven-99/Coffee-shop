@@ -1,0 +1,37 @@
+.card_description{
+    font-family: Merienda;
+     
+    .card_description-inner{
+        display: flex;
+        justify-content: center;
+        width: 865px;
+        height: 355px;
+        img{
+            margin-right: 55px;
+        }
+        .desc_block{
+            .country_block{
+                display: flex;
+                .country{
+                    font-weight: bold;
+                }
+            }
+            .price_block{
+                display: flex;
+                .price{
+                    font-weight: bold;
+                }
+            }
+        }
+        .desc_title{
+            text-align: center;
+            margin-bottom: 21px;
+        }
+    }
+    .wrap{
+        // text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+}

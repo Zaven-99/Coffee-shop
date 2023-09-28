@@ -1,0 +1,27 @@
+.menu_footer{
+    justify-content: center;
+    display: flex;
+    padding: 27px;
+    font-family: Merienda;
+    margin-top: 60px;
+    img{
+        background-image: url('../../../public/img/logoBlack.svg');
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:contain;
+        width: 40px;
+    }
+    .menu_item{
+        color: black;
+        margin-right: 40px; 
+    }
+    .menu_item:hover{
+        opacity: 0.8;
+        transition: 1s;
+    }
+}
+.logoBlack{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,55 @@
+.FilterOurCoffeePage-inner{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    gap: 83px;
+    font-family: Merienda;
+    margin: 0 auto;
+    .btn{
+        background-color:white;
+    }
+    .input{
+        border: 1px solid whitesmoke;
+        border-radius: 4px;
+        box-shadow: 5px 5px 10px #888, 0px 2px 10px #888;
+        width: 180px;
+        padding:6px 36px 6px 36px;
+    }
+    span{
+        margin-right: 19px;
+        font-size: 14px;
+    }
+    .first-btn{
+        background-color: white;
+        box-shadow: 5px 5px 10px #888, 0px 2px 10px #888;
+        padding: 7px 20px 5px 20px;
+        border-radius: 4px 0 0 4px;
+        gap:5px;
+    }
+    .middle-btn{
+        background-color: white;
+        box-shadow: 5px 5px 10px #888, 0px 2px 10px #888;
+        padding: 7px 20px 5px 20px;
+        
+    }
+    .end-btn{
+        background-color: white;
+        box-shadow: 5px 5px 10px #888, 0px 2px 10px #888;
+        padding: 7px 20px 5px 20px;
+        border-radius: 0 4px 4px 0
+    }
+    .btn-filter{
+        margin-right: 5px;
+        
+    }
+    .btn-filter:hover{
+        background-color:#888;
+        transition: 1s;
+    }
+}
+
+.active{
+    color: #888;
+}
+
+  

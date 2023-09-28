@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { CoffeeHousePage } from "./pages/coffeeHousePage/coffeeHousePage";
+import { OurCoffeePage } from "./pages/ourCoffeePage/ourCoffeePage";
+import { CardDescriptionPage } from "./pages/cardDescriptionPage/cardDescriptionPage";
+import { ForYourPleasurePage } from "./pages/forYourPleasure/forYourPleasure";
+import { OurBestDescriptionCoffeHousePage } from "./pages/ourBestDescriptionPage/ourBestDescriptionPage";
+import { Route, Routes } from "react-router-dom";
+
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route index path="/" element={<CoffeeHousePage />} />
+        <Route path="/ourCoffee" element={<OurCoffeePage />} />
+        <Route path="/cardDescription/:id" element={<CardDescriptionPage />} />
+        <Route path="/forYourPleasure" element={<ForYourPleasurePage />} />
+        <Route path="/ourBestDescription/:id" element={<OurBestDescriptionCoffeHousePage />}
+        />
+      </Routes>
+    </>
   );
 }
 

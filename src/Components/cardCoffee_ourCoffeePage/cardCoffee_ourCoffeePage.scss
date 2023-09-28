@@ -1,0 +1,32 @@
+.card_item{
+    width: 220px;
+    height: 260px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #888, 0px 2px 10px #888;
+    font-family: Merienda;
+    cursor: pointer;
+    color: black;
+     .img_block{
+        text-align: center;
+        margin-top: 37px;
+     }
+     .desc_block{
+        .name{
+            font-size: 14px;
+            text-align: center;
+            margin-top: 14px;
+        }
+        .country{
+            font-size: 14px;
+            text-align: end;
+            margin-right: 27px;
+            margin-top: 14px;
+        }
+        .price{
+            font-size: 14px;
+            text-align: end;
+            margin-right: 27px;
+            margin-top: 14px;
+        }
+     }
+}
